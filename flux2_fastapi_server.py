@@ -25,6 +25,8 @@ import random
 import time
 from typing import Optional
 
+os.environ["HF_XET_HIGH_PERFORMANCE"] = "1"
+
 import torch
 from diffusers import Flux2KleinPipeline
 from fastapi import FastAPI, HTTPException

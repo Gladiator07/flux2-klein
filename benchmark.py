@@ -20,6 +20,8 @@ import argparse
 import os
 import time
 
+os.environ["HF_XET_HIGH_PERFORMANCE"] = "1"
+
 import numpy as np
 import torch
 from diffusers import Flux2KleinPipeline

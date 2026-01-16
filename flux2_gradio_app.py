@@ -22,6 +22,8 @@ import os
 import random
 import time
 
+os.environ["HF_XET_HIGH_PERFORMANCE"] = "1"
+
 import gradio as gr
 import numpy as np
 import torch
