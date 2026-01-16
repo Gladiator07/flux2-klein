@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environments
+.venv/
+
+# Local artifacts
+bench_outputs/
+references/
+references.zip
+
+# Editor/OS
+.DS_Store
+.claude/
+references/
+bench_outputs/
+*.zip
